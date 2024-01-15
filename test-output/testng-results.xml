@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-15T15:17:29 IST" name="Default suite" finished-at="2024-01-15T15:18:25 IST" duration-ms="55139">
+  <suite started-at="2024-01-15T23:04:09 IST" name="Default suite" finished-at="2024-01-15T23:05:04 IST" duration-ms="54900">
     <groups>
     </groups>
-    <test started-at="2024-01-15T15:17:29 IST" name="Default test" finished-at="2024-01-15T15:18:25 IST" duration-ms="55139">
+    <test started-at="2024-01-15T23:04:09 IST" name="Default test" finished-at="2024-01-15T23:05:04 IST" duration-ms="54900">
       <class name="Testpkg.HandMTest">
-        <test-method signature="setUp()[pri:0, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T15:17:29 IST" name="setUp" finished-at="2024-01-15T15:17:44 IST" duration-ms="14524" status="PASS">
+        <test-method signature="setUp()[pri:0, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T23:04:09 IST" name="setUp" finished-at="2024-01-15T23:04:19 IST" duration-ms="9689" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="addToCart()[pri:1, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T15:17:44 IST" name="addToCart" finished-at="2024-01-15T15:18:09 IST" duration-ms="25254" status="PASS">
+        <test-method signature="addToCart()[pri:1, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T23:04:19 IST" name="addToCart" finished-at="2024-01-15T23:04:47 IST" duration-ms="28563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCart -->
-        <test-method signature="checkOutPage()[pri:2, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T15:18:09 IST" name="checkOutPage" finished-at="2024-01-15T15:18:25 IST" duration-ms="15291" status="FAIL">
+        <test-method signature="checkOutPage()[pri:2, instance:Testpkg.HandMTest@82de64a]" started-at="2024-01-15T23:04:47 IST" name="checkOutPage" finished-at="2024-01-15T23:05:04 IST" duration-ms="16554" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[Unable to find element with locator By.xpath: /html[1]/body[1]/div[2]/main[1]/div[2]/section[2]/div[1]/div[1]/div[1]/div[3]/button[1]

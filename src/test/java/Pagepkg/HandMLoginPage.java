@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -22,6 +23,7 @@ public class HandMLoginPage {
 	
 	public void setValues(String emailf,String passf) throws InterruptedException 
 	{
+		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.findElement(By.xpath("//header/nav[1]/div[1]/ul[1]/li[1]/div[1]/button[1]")).click();
 		driver.findElement(By.xpath("//*[@id=\"email\"]")).sendKeys(emailf);

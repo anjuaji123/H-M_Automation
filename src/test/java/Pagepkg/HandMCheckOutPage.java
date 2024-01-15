@@ -18,9 +18,9 @@ public class HandMCheckOutPage {
 	}
 	public void clickCheckOut()throws InterruptedException
 	{
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-		//Thread.sleep(2000);
-		driver.findElement(By.xpath("/html[1]/body[1]/div[2]/main[1]/div[2]/section[2]/div[1]/div[1]/div[1]/div[3]/button[1]")).click();
+		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+		Thread.sleep(2000);
+		driver.findElement(By.xpath("/html[1]/body[1]/div[2]/main[1]/div[2]/section[2]/div[1]/div[1]/div[1]/div[3]/button[1]")).click();//checkout
 	}
 	public void fillup()
 	{
